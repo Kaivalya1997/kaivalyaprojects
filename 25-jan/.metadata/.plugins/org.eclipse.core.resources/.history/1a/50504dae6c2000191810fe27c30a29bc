@@ -1,0 +1,11 @@
+package com.sapient.order.service;
+
+public class OrderServiceImpl implements IOrderService {
+    /* (non-Javadoc)
+	 * @see com.sapient.order.service.IOrderService#processOrder()
+	 */
+    @Override
+	public void processOrder(){
+    	System.out.println("processing order");
+    }
+}

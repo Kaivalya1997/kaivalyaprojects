@@ -1,0 +1,7 @@
+package com.sapient.order.service;
+
+public interface IOrderService {
+
+	Order processOrder();
+
+}

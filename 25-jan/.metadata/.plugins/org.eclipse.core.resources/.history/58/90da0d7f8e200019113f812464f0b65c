@@ -1,0 +1,9 @@
+package com.sapient.order.repository;
+
+import com.sapient.order.service.Order;
+
+public class OrderRepository {
+     public void save(Order order) {
+    	 
+     }
+}

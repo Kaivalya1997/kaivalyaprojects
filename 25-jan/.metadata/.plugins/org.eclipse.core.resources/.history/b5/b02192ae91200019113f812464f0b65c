@@ -1,0 +1,19 @@
+package com.sapient.order.service;
+
+import com.sapient.order.repository.OrderRepository;
+
+public class OrderServiceImpl implements IOrderService {
+   
+    @Override
+	public void processOrder(Order order){
+    	System.out.println("processing order");
+    	if(order.getPrice()>50) {
+    		System.out.println("order is invalid");
+    	}
+    	else {
+    		OrderRepository repo=new OrderRepository();
+    		repo.save(order);
+    	}
+    	
+    }
+}

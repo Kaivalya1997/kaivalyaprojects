@@ -1,0 +1,20 @@
+package com.sapient.order.repository;
+
+import com.sapient.order.service.Order;
+import java.sql.*;
+
+public class OrderRepository {
+
+	
+
+	public void save(Order order) {
+		Connection conn = null;
+		Statement stmt = null;
+		try {
+			Class.forName("com.mysql.jdbc.Driver");
+		} catch (ClassNotFoundException e) {
+			e.printStackTrace();
+		}
+
+	}
+}

@@ -1,0 +1,7 @@
+package com.sapient.order.service;
+
+public class OrderService {
+    public void processOrder(){
+    	System.out.println("processing order");
+    }
+}
